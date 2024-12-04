@@ -1,65 +1,34 @@
 {
-    "events": [
-      {
-        "title": "Bug Technique Majeur",
-        "description": "Tous les Devs (Garde) sont occupés à résoudre un bug urgent. Ils ne peuvent pas protéger de joueur cette nuit."
-      },
-      {
-        "title": "Fuite de Données",
-        "description": "Les Hackers ont publié des informations sensibles. Un rôle de leur choix est révélé publiquement à tous les joueurs."
-      },
-      {
-        "title": "Campagne Publicitaire Virale",
-        "description": "L'Influenceur (Corbeau) gagne temporairement la capacité d’imposer deux votes supplémentaires contre une cible pour le prochain vote public."
-      },
-      {
-        "title": "Bad Buzz",
-        "description": "L’Influenceur (Corbeau) perd son pouvoir temporairement à cause d’un scandale en ligne."
-      },
-      {
-        "title": "Black-out Électrique",
-        "description": "Une panne de courant empêche toute communication entre les joueurs durant ce tour (aucune discussion pendant la phase de jour). Seuls les votes sont autorisés."
-      },
-      {
-        "title": "Pitch Client Imprévu",
-        "description": "Le Manager (Maire) peut désigner un joueur pour présenter un 'argumentaire' (défense improvisée) devant tout le groupe. Ce joueur est protégé de l’élimination pour un tour, même en cas de majorité."
-      },
-      {
-        "title": "Post Instagram Viral",
-        "description": "Tous les joueurs doivent voter de manière anonyme ce tour-ci. Le Game Master recueille les votes et annonce les résultats sans révéler qui a voté pour qui."
-      },
-      {
-        "title": "Revue de Performance",
-        "description": "Chaque joueur doit convaincre toute l’audience qu’il n’est pas un hacker, en argumentant. À la fin des argumentations, les joueurs votent pour celui qu’ils désignent comme le hacker. Celui-ci perd alors sa capacité spéciale pour ce tour."
-      },
-      {
-        "title": "Hack d’Entreprise",
-        "description": "Les Hackers volent les identifiants d’un joueur et lui interdisent d’utiliser son pouvoir pendant la nuit suivante."
-      },
-      {
-        "title": "Réunion de Crise",
-        "description": "Aucun vote n’a lieu ce tour. À la place, tous les joueurs discutent librement pendant une période prolongée pour échanger des soupçons et théories."
-      },
-      {
-        "title": "Coup de Pub",
-        "description": "Le Manager (Maire) décide d'organiser une campagne publicitaire. Il choisit un joueur qui sera immunisé contre l’élimination (vote ou attaque) pour le tour suivant."
-      },
-      {
-        "title": "Deadline Imprévue",
-        "description": "Le vote du jour est accéléré : les joueurs n’ont que 30 secondes pour débattre avant de voter."
-      },
-      {
-        "title": "Pause Café",
-        "description": "Aucun vote ni attaque n’a lieu ce tour. Les joueurs peuvent uniquement discuter librement pour échanger des théories."
-      },
-      {
-        "title": "Retard du Manager",
-        "description": "Le Manager (Maire) ne peut pas utiliser son pouvoir de double vote ce tour."
-      },
-      {
-        "title": "Bug Mineur",
-        "description": "Les Hackers perdent leur capacité d'attaquer pour cette nuit. Ils doivent rester inactifs."
-      }
-    ]
-  }
-  
+  "events": [
+    {
+      "title": "General Bug",
+      "description": "The devs are busy fixing a major bug. They’re so deep into their code that they can’t even protect a player during this meeting.",
+      "fun_fact": "Fun fact: According to recent reports, over 50% of developers in 2024 now use AI-powered tools (like Copilot, ChatGPT, and others) to help them write code, automate tasks, and boost their productivity."
+    },
+    {
+      "title": "Data Breach",
+      "description": "The hackers decided to share some sensitive information—they sent an email to all the agency’s clients revealing that the manager had an inappropriate, non-consensual relationship with their intern. A role of their choice is now exposed to everyone.",
+      "fun_fact": "Fun fact: In 2023, 53% of companies experienced a data breach, and guess what? It was often due to a password like '123456.' Well played, hackers!"
+    },
+    {
+      "title": "Viral Advertising Campaign",
+      "description": "The Influencer, a major competitor to Inoxtag, may not have climbed Mount Everest, but they temporarily gain the ability to impose two additional votes against a target.",
+      "fun_fact": "Fun fact: In 2023, influencers generated nearly $21 billion in revenue through social media advertising. But here’s the most surprising part: 70% of young consumers say they are more likely to buy a product if it’s recommended by an influencer, even if they don’t know them personally!"
+    },
+    {
+      "title": "Bad Buzz",
+      "description": "The Influencer temporarily loses their power due to a scandal, à la Norman Makes Videos.",
+      "fun_fact": "Fun fact: The influencer market has boomed in recent years, and by 2024, it’s estimated that micro-influencers (those with 1,000 to 100,000 followers) generate over 70% of total revenue from influencer marketing campaigns. In other words, an influencer with a small but loyal audience is often more effective than a celebrity with millions of followers!"
+    },
+    {
+      "title": "Power Outage",
+      "description": "A power outage prevents any communication between the players during the debriefing. And yes, the bills haven’t been paid, not great Thierry. The vote must be done in silence.",
+      "fun_fact": "Fun fact: The average cost of power outages for a business in 2022 was $150,000 per minute. If you think that’s expensive, just wait to see the bill for the votes after this meeting in the dark!"
+    },
+    {
+      "title": "Unexpected Client Pitch",
+      "description": "The Manager can choose a player to give a 'pitch' for a client. The theme: 'Why striped socks are the future of the workplace.' This player is protected from elimination for one round, but watch out—they’ll need to convince with style!",
+      "fun_fact": "Fun fact: In 2024, a study revealed that 75% of work meetings end up turning into a mix of 'group chats,' 'sharing cat videos,' and 'discussions about the most comfortable socks.' So, a 6-minute pitch on striped socks actually sounds a lot more productive!"
+    }
+  ]
+}

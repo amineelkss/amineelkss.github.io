@@ -16,7 +16,11 @@ function showPopup() {
   if (events.length > 0) {
     const randomIndex = Math.floor(Math.random() * events.length);
     const event = events[randomIndex];
-    document.getElementById('popup-message').innerHTML = `<h3>${event.title}</h3><br>${event.description}`;
+    document.getElementById('popup-message').innerHTML = `
+      <h3>${event.title}</h3><br>
+      ${event.description}<br><br>
+      <em>${event.fun_fact}</em>
+    `;
   } else {
     document.getElementById('popup-message').textContent = "Aucun événement disponible.";
   }
