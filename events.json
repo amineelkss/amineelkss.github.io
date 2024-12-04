@@ -1,0 +1,65 @@
+{
+    "events": [
+      {
+        "title": "Bug Technique Majeur",
+        "description": "Tous les Devs (Garde) sont occupés à résoudre un bug urgent. Ils ne peuvent pas protéger de joueur cette nuit."
+      },
+      {
+        "title": "Fuite de Données",
+        "description": "Les Hackers ont publié des informations sensibles. Un rôle de leur choix est révélé publiquement à tous les joueurs."
+      },
+      {
+        "title": "Campagne Publicitaire Virale",
+        "description": "L'Influenceur (Corbeau) gagne temporairement la capacité d’imposer deux votes supplémentaires contre une cible pour le prochain vote public."
+      },
+      {
+        "title": "Bad Buzz",
+        "description": "L’Influenceur (Corbeau) perd son pouvoir temporairement à cause d’un scandale en ligne."
+      },
+      {
+        "title": "Black-out Électrique",
+        "description": "Une panne de courant empêche toute communication entre les joueurs durant ce tour (aucune discussion pendant la phase de jour). Seuls les votes sont autorisés."
+      },
+      {
+        "title": "Pitch Client Imprévu",
+        "description": "Le Manager (Maire) peut désigner un joueur pour présenter un 'argumentaire' (défense improvisée) devant tout le groupe. Ce joueur est protégé de l’élimination pour un tour, même en cas de majorité."
+      },
+      {
+        "title": "Post Instagram Viral",
+        "description": "Tous les joueurs doivent voter de manière anonyme ce tour-ci. Le Game Master recueille les votes et annonce les résultats sans révéler qui a voté pour qui."
+      },
+      {
+        "title": "Revue de Performance",
+        "description": "Chaque joueur doit convaincre toute l’audience qu’il n’est pas un hacker, en argumentant. À la fin des argumentations, les joueurs votent pour celui qu’ils désignent comme le hacker. Celui-ci perd alors sa capacité spéciale pour ce tour."
+      },
+      {
+        "title": "Hack d’Entreprise",
+        "description": "Les Hackers volent les identifiants d’un joueur et lui interdisent d’utiliser son pouvoir pendant la nuit suivante."
+      },
+      {
+        "title": "Réunion de Crise",
+        "description": "Aucun vote n’a lieu ce tour. À la place, tous les joueurs discutent librement pendant une période prolongée pour échanger des soupçons et théories."
+      },
+      {
+        "title": "Coup de Pub",
+        "description": "Le Manager (Maire) décide d'organiser une campagne publicitaire. Il choisit un joueur qui sera immunisé contre l’élimination (vote ou attaque) pour le tour suivant."
+      },
+      {
+        "title": "Deadline Imprévue",
+        "description": "Le vote du jour est accéléré : les joueurs n’ont que 30 secondes pour débattre avant de voter."
+      },
+      {
+        "title": "Pause Café",
+        "description": "Aucun vote ni attaque n’a lieu ce tour. Les joueurs peuvent uniquement discuter librement pour échanger des théories."
+      },
+      {
+        "title": "Retard du Manager",
+        "description": "Le Manager (Maire) ne peut pas utiliser son pouvoir de double vote ce tour."
+      },
+      {
+        "title": "Bug Mineur",
+        "description": "Les Hackers perdent leur capacité d'attaquer pour cette nuit. Ils doivent rester inactifs."
+      }
+    ]
+  }
+  

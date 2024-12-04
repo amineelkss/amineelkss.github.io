@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup Random Message</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="content">
+    <img src="logo.png" alt="" class="logo">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit diam vel quam volutpat, non varius lacus tincidunt. Integer a magna ut purus aliquet faucibus. Aenean nec lacus vitae metus posuere faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam eu massa vitae nunc feugiat dapibus. Pellentesque id nibh at libero facilisis tempor sit amet nec nisi.
+    </p>
+    <p>
+      Vestibulum finibus, ipsum nec eleifend fringilla, odio odio vulputate dolor, in tincidunt nulla mauris non erat. Suspendisse pharetra ipsum sed purus faucibus, et scelerisque ex vehicula.
+    </p>
+  </div>
+  <button class="fixed-button" onclick="showPopup()">Generate an event</button>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <p id="popup-message">Chargement...</p>
+      <button onclick="closePopup()">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
