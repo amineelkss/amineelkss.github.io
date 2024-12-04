@@ -3,79 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hacked Event</title>
+  <title>Welcome to Hacked Event</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #EDE2FF;
+      color: white;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 30px;
+      z-index: 2;
+    }
+
+    .buttons-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      z-index: 2;
+    }
+
+    .button {
+      background-color: #6200ea;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 100vmax;
+      font-size: 19px;
+      font-weight: 600;
+      white-space: nowrap;
+      cursor: pointer;
+      box-shadow: 0 0px 15px rgba(101, 35, 255, 0.8);
+      transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    .button:hover {
+      background-color: #7e3ff2;
+      box-shadow: 0 0px 20px rgba(101, 35, 255, 1);
+    }
+
+    .background-image {
+      position: absolute;
+      bottom: -50%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 150%;
+      height: auto;
+      z-index: 1;
+      opacity: 0.2;
+    }
+  </style>
 </head>
 <body>
-  <div class="content">
-    <img src="logo.png" alt="Hacked Logo" class="logo">
-    <h1>Game Master Guide</h1>
-    <p>Follow these steps to guide the game:</p>
+  <img src="logo.png" alt="Hacked Event Logo" class="logo">
 
-    <ul>
-      <li><strong>Start the Meeting Period (Night Phase):</strong></li>
-      <ul>
-        <li>Everyone closes their eyes.</li>
-        <li><strong>Web and Graphic Designer:</strong> Open your eyes and recognize each other as linked. If one is fired, the other will also be fired.</li>
-        <li><strong>Developer:</strong> Open your eyes and select a person to protect. This person will be immune from being fired. You cannot protect the same person twice in a row.</li>
-        <li><strong>Hackers:</strong> Open your eyes and silently point to one person to fire.</li>
-        <li><strong>Competitor:</strong> Open your eyes and silently point to one person to fire (independent of the Hackers).</li>
-        <li><strong>HR:</strong> Open your eyes and choose to:
-          <ul>
-            <li>Save a player targeted by the Hackers.</li>
-            <li>Fire a player of your choice (use this power only once).</li>
-          </ul>
-        </li>
-        <li><strong>Influencer:</strong> Open your eyes and select a player to automatically receive one vote against them during the day phase.</li>
-        <li>Everyone closes their eyes again.</li>
-      </ul>
-
-      <br>
-      <br>
-
-      <li><strong>Move to the Debriefing Period (Day Phase):</strong></li>
-      <ul>
-        <li>Everyone opens their eyes.</li>
-        <li>Announce the results of the night:
-          <ul>
-            <li>Who was protected by the Developer or HR.</li>
-            <li>Who (if anyone) was fired by the Hackers or Competitor.</li>
-          </ul>
-        </li>
-        <li>Generate a random event using the QR code and explain its effect to the players.</li>
-        <li>Facilitate a debate where players discuss and try to identify the Hackers or Competitor.</li>
-        <li>Host a vote:
-          <ul>
-            <li>Players vote on who they think should be fired.</li>
-            <li>The Manager’s vote counts double. In the event of a tie, the Manager decides who is fired.</li>
-          </ul>
-        </li>
-        <li>Reveal the fired player’s role and remove them from the game.</li>
-      </ul>
-
-      <br>
-      <br>
-
-      <li><strong>Repeat the steps until a victory condition is met:</strong></li>
-      <ul>
-        <li>Hackers win if their number equals or exceeds the remaining players.</li>
-        <li>The Competitor wins if they eliminate everyone else.</li>
-        <li>Employees win if all Hackers and the Competitor are fired.</li>
-      </ul>
-    </ul>
-
-    <p>Good luck, Game Master! Keep the agency safe!</p>
+  <div class="buttons-container">
+    <button class="button" onclick="startGame()">Start Game</button>
+    <button class="button" onclick="viewGameRules()">Game Rules</button>
   </div>
 
-  <button class="fixed-button" onclick="showPopup()">Generate an event</button>
+  <img src="background.png" alt="Background Image" class="background-image">
 
-  <div id="popup" class="popup">
-    <div class="popup-content">
-      <p id="popup-message">Loading...</p>
-      <button onclick="closePopup()">OK</button>
-    </div>
-  </div>
+  <script>
+    function startGame() {
+      window.location.href = "main.html"; // Remplacez par le chemin de la page principale
+    }
 
-  <script src="script.js"></script>
+    function viewGameRules() {
+      window.open("gamerules.pdf", "_blank"); // Remplacez par le chemin vers le fichier PDF
+    }
+  </script>
 </body>
 </html>
