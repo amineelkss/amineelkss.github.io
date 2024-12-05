@@ -3,32 +3,92 @@
     {
       "title": "General Bug",
       "description": "The devs are busy fixing a major bug. They’re so deep into their code that they can’t even protect a player during this meeting.",
-      "fun_fact": "Fun fact: According to recent reports, over 50% of developers in 2024 now use AI-powered tools (like Copilot, ChatGPT, and others) to help them write code, automate tasks, and boost their productivity."
+      "fun_fact": "Fun fact: According to you, in 2024, what percentage of developers are using artificial intelligence (like ChatGPT, Copilot, etc.) to help them write code, automate tasks, and boost their productivity?",
+      "options": ["35%", "50%"]
     },
     {
       "title": "Data Breach",
       "description": "The hackers decided to share some sensitive information—they sent an email to all the agency’s clients revealing that the manager had an inappropriate, non-consensual relationship with their intern. A role of their choice is now exposed to everyone.",
-      "fun_fact": "Fun fact: In 2023, 53% of companies experienced a data breach, and guess what? It was often due to a password like '123456.' Well played, hackers!"
+      "fun_fact": "Fun fact: What’s the most common cause of data breaches in companies?",
+      "options": ["Outdated software updates", "Weak passwords like '123456'"]
     },
     {
       "title": "Viral Advertising Campaign",
       "description": "The Influencer, a major competitor to Inoxtag, may not have climbed Mount Everest, but they temporarily gain the ability to impose two additional votes against a target.",
-      "fun_fact": "Fun fact: In 2023, influencers generated nearly $21 billion in revenue through social media advertising. But here’s the most surprising part: 70% of young consumers say they are more likely to buy a product if it’s recommended by an influencer, even if they don’t know them personally!"
+      "fun_fact": "Fun fact: What percentage of young consumers are more likely to buy a product recommended by an influencer?",
+      "options": ["45%", "70%"]
     },
     {
       "title": "Bad Buzz",
-      "description": "The Influencer temporarily loses their power due to a scandal, à la Norman Makes Videos.",
-      "fun_fact": "Fun fact: The influencer market has boomed in recent years, and by 2024, it’s estimated that micro-influencers (those with 1,000 to 100,000 followers) generate over 70% of total revenue from influencer marketing campaigns. In other words, an influencer with a small but loyal audience is often more effective than a celebrity with millions of followers!"
+      "description": "The Influencer temporarily loses their power due to a scandal, like Norman fait des vidéos.",
+      "fun_fact": "Fun fact: What percentage of total revenue from influencer marketing campaigns will micro-influencers generate by 2024?",
+      "options": ["40%", "70%"]
     },
     {
       "title": "Power Outage",
       "description": "A power outage prevents any communication between the players during the debriefing. And yes, the bills haven’t been paid, not great Thierry. The vote must be done in silence.",
-      "fun_fact": "Fun fact: The average cost of power outages for a business in 2022 was $150,000 per minute. If you think that’s expensive, just wait to see the bill for the votes after this meeting in the dark!"
+      "fun_fact": "Fun fact: What was the average cost of power outages for a business in 2022?",
+      "options": ["$50,000 per hour", "$150,000 per minute"]
     },
     {
       "title": "Unexpected Client Pitch",
       "description": "The Manager can choose a player to give a 'pitch' for a client. The theme: 'Why striped socks are the future of the workplace.' This player is protected from elimination for one round, but watch out—they’ll need to convince with style!",
-      "fun_fact": "Fun fact: In 2024, a study revealed that 75% of work meetings end up turning into a mix of 'group chats,' 'sharing cat videos,' and 'discussions about the most comfortable socks.' So, a 6-minute pitch on striped socks actually sounds a lot more productive!"
+      "fun_fact": "Fun fact: What percentage of work meetings turn into discussions about cats, socks, or random group chats?",
+      "options": ["50%", "75%"]
+    },
+    {
+      "title": "Viral Instagram Post",
+      "description": "All players must vote anonymously (close your eyes and choose the player you want to eliminate). A player has accidentally revealed a group secret during an innocent conversation, and now everyone is too embarrassed to discuss openly. To avoid escalating the situation, they decide to hold an anonymous vote.",
+      "fun_fact": "Fun fact: How many active users did Instagram have in 2023?",
+      "options": ["500 million", "1 billion"]
+    },
+    {
+      "title": "Performance Review",
+      "description": "Each player must convince the audience that they’re not a hacker. One player accidentally sent a video of their pet playing with a USB cable instead of their report. The problem? Everyone thinks it was a coded message for a cyber attack.",
+      "fun_fact": "Fun fact: What percentage of recruiters rely more on 'soft skills' than technical skills?",
+      "options": ["40%", "60%"]
+    },
+    {
+      "title": "Corporate Hack",
+      "description": "The Hackers steal a player's credentials and prevent them from using their power. One player accidentally shared their password with the whole team.",
+      "fun_fact": "Fun fact: What percentage of cyberattacks in 2022 targeted small businesses?",
+      "options": ["30%", "43%"]
+    },
+    {
+      "title": "Crisis Meeting",
+      "description": "The server confused 'communication plan' with 'vacation plan.' As a result, all team messages are now invitations to a beach weekend with a DJ and barbecue. No voting this round. Instead, we chat freely.",
+      "fun_fact": "Fun fact: What is the average cost of crisis meetings in companies per hour?",
+      "options": ["$50,000", "$100,000"]
+    },
+    {
+      "title": "Publicity Stunt",
+      "description": "The Manager organizes an advertising campaign. He selects a player who will be immune from elimination. The campaign was so successful that customers started believing the product could solve all their problems.",
+      "fun_fact": "Fun fact: What is the increase in reach for digital ads when well-targeted?",
+      "options": ["60%", "90%"]
+    },
+    {
+      "title": "Unexpected Deadline",
+      "description": "The day's vote is sped up because the CEO is stressed after drinking way too much last night.",
+      "fun_fact": "Fun fact: What percentage of workers admit to being more productive under pressure?",
+      "options": ["60%", "45%"]
+    },
+    {
+      "title": "Coffee Break",
+      "description": "The coffee break lasted way too long, and now it’s 6 PM. No voting or attacks take place. Players can chat freely.",
+      "fun_fact": "Fun fact: How many hours per week does the average employee spend chatting at the coffee machine?",
+      "options": ["4.5 hours", "6.4 hours"]
+    },
+    {
+      "title": "Manager's Delay",
+      "description": "The manager forgets to use their double vote power. Indeed, the manager was a victim of a hostage situation in their office.",
+      "fun_fact": "Fun fact: What percentage of managers admit to being late for their meetings?",
+      "options": ["50%", "65%"]
+    },
+    {
+      "title": "Minor Bug",
+      "description": "The Hackers lose their ability to attack for the night because they partied all night long.",
+      "fun_fact": "Fun fact: What percentage of hackers admit they target systems 'for fun'?",
+      "options": ["50%", "70%"]
     }
   ]
 }

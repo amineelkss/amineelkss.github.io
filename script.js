@@ -1,7 +1,6 @@
-// Charger les événements JSON et les stocker
+// Charger les événements depuis le fichier JSON
 let events = [];
 
-// Charger les événements depuis le fichier JSON
 fetch('events.json')
   .then(response => response.json())
   .then(data => {
@@ -16,14 +15,22 @@ function showPopup() {
   if (events.length > 0) {
     const randomIndex = Math.floor(Math.random() * events.length);
     const event = events[randomIndex];
-    document.getElementById('popup-message').innerHTML = `
-      <h3>${event.title}</h3><br>
-      ${event.description}<br><br>
-      <em>${event.fun_fact}</em>
+
+    // Contenu dynamique de la popup
+    const popupMessage = document.getElementById('popup-message');
+    popupMessage.innerHTML = `
+      <h2>${event.title}</h2>
+      <p>${event.description}</p>
+      <p><strong>${event.fun_fact}</strong></p>
+      <div class="quiz-options">
+        <span class="option">${event.options[0]}</span>
+        <span class="option correct">${event.options[1]}</span>
+      </div>
     `;
   } else {
     document.getElementById('popup-message').textContent = "Aucun événement disponible.";
   }
+
   document.getElementById('popup').style.display = 'flex';
 }
 
